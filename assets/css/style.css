@@ -2,24 +2,26 @@ body{
     /* background: blue; */
 }
 .header {
-    width: 200px; 
+    width: 62%; 
     height: 20px; 
     position: relative ;
     background-color: red;
     border-radius: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    padding: 20px 10px 30px 30px ;
+    padding: 20px 3% 30px 5% ;
     /* left: 25%; */
-    margin-left: 25%;
+    margin-left: 20%;
     margin-right: 50%;
     margin-bottom: 0px;
     color: white;
+    z-index: 1000;
 
 }
 .background-img{
-    position: relative;
+    position: fixed;
     z-index: 10;
+    top:-200px
     /* top:-20px; */
     
 
@@ -28,10 +30,11 @@ body{
 .links{
     position: absolute;
     margin-right: 25% ;
-    right: 0px;
+    right: -100px;
+    /* background-color: white; */
     
     top: 45px;
-    z-index: 20;
+    z-index: 1000;
     ;
 }
 a{
@@ -44,16 +47,18 @@ a{
     z-index: 100;
     background: white;
     color:black;
-    width: auto ;
+    width: 65% ;
     height: auto;
     position: absolute;
-    margin: 0 25% 0 25%;
-    top: 20px;
-    padding-left:20px ;
+    margin: 0 10% 0 20%;
+    top: 100px;
+    padding-left:5% ;
     
 }
-main{
-    margin-left: 25%;
+.main{
+    /* margin-left: 25%; */
+    background: white;
+    width: 75%;
 
 }
 h2{
@@ -73,7 +78,17 @@ hr{
     margin: 0 auto;
 }
 .port-pic{ 
-        position: relative;
+        /* position: relative; */
+        /* z-index: 100; */
+    /* background: white; */
+    /* color:black; */
+    /* width: 50% ; */
+    /* height: auto; */
+    
+    /* margin: 0 10% 0 10%; */
+    /* top: 20px; */
+    /* padding-left:20px ; */
+    
 }
 
 .pic1{
@@ -91,6 +106,10 @@ hr{
 .pic5{
     position: absolute;
 }
-.pic6{
+.pic{
     position: absolute;
+}
+
+form{
+    z-index: 100000;
 }
