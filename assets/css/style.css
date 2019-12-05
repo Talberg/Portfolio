@@ -1,0 +1,96 @@
+body{
+    /* background: blue; */
+}
+.header {
+    width: 200px; 
+    height: 20px; 
+    position: relative ;
+    background-color: red;
+    border-radius: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px 10px 30px 30px ;
+    /* left: 25%; */
+    margin-left: 25%;
+    margin-right: 50%;
+    margin-bottom: 0px;
+    color: white;
+
+}
+.background-img{
+    position: relative;
+    z-index: 10;
+    /* top:-20px; */
+    
+
+    
+}
+.links{
+    position: absolute;
+    margin-right: 25% ;
+    right: 0px;
+    
+    top: 45px;
+    z-index: 20;
+    ;
+}
+a{
+    text-decoration:none;
+    color:gray;
+}
+
+
+.p {
+    z-index: 100;
+    background: white;
+    color:black;
+    width: auto ;
+    height: auto;
+    position: absolute;
+    margin: 0 25% 0 25%;
+    top: 20px;
+    padding-left:20px ;
+    
+}
+main{
+    margin-left: 25%;
+
+}
+h2{
+    width: 200px;
+    height: 20px;
+    color: red;
+
+}
+.profile-pic{
+    width: 20%;
+    height: 30%;
+    /* position: relative; */
+    float: left;
+
+}
+hr{
+    margin: 0 auto;
+}
+.port-pic{ 
+        position: relative;
+}
+
+.pic1{
+    position: absolute;
+}
+.pic2{
+    position: absolute;
+}
+.pic3{
+    position: absolute;
+}
+.pic4{
+    position: absolute;
+}
+.pic5{
+    position: absolute;
+}
+.pic6{
+    position: absolute;
+}
