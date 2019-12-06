@@ -24,6 +24,7 @@ body{
     top:-200px
     /* top:-20px; */
     
+    
 
     
 }
@@ -39,7 +40,7 @@ body{
 }
 a{
     text-decoration:none;
-    color:gray;
+    color:teal;
 }
 
 
@@ -103,9 +104,9 @@ hr{
 }
 .pic2{
     position: absolute;
-    left: 51%;
-    top: 15%;
-    width: 30%;
+    
+    
+    width: px;
     height: auto;
 }
 .pic3{
@@ -157,33 +158,40 @@ figure{
     right: 55%;
 
 }
-.box2{position: absolute; text-align: center;
-    padding-top: 3%;
-    top: 26%;
-    right: 11%;
+.box2{
+     /* text-align: center;
+    padding-top: 3%; */
+    /* top: 26%;
+    right: 11%; */
+    
+    width: 200px;
+    
+    
    
     
 
 }
-.box3{ position: absolute; text-align: center;
-    padding-top: 3%;
-    
-    
-
-}
-.box4{ position: absolute; text-align: center;
-    padding-top: 3%;
+.box3{ 
+    width: 200px;
     
 
 }
-.box5{position: absolute; text-align: center;
-    padding-top: 3%;
-    
+.box4{ 
+    /* position: absolute; text-align: center;
+    padding-top: 3%; */
+    width: 200px;
 
 }
-.box6{position: absolute; text-align: center;
-    padding-top: 3%;
-    
+.box5{
+    /* position: absolute; text-align: center;
+    padding-top: 3%; */
+    width: 200px;
+
+}
+.box6{
+    /* position: absolute; text-align: center;
+    padding-top: 3%; */
+    width: 200px;
 
 }
 .picture{
@@ -208,3 +216,91 @@ figure{
     padding-top: 3%;
 
 }
+.test1{
+    position: absolute;
+        display: inline-block;
+
+}
+.test1 .text{
+    background-color: tomato;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 97%; /* Set the width of the positioned div */
+}
+.test2 .text{
+    background-color: tomato;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 97%; /* Set the width of the positioned div */
+}
+.test3 .text{
+    background-color: tomato;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 97%; /* Set the width of the positioned div */
+}
+.test4 .text{
+    background-color: tomato;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 97%; /* Set the width of the positioned div */
+}
+.test5 .text{
+    background-color: tomato;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 97%; /* Set the width of the positioned div */
+}
+
+.test2{
+    position: absolute;
+        display: inline-block;
+        left: 40%;
+
+}
+.test3{
+    position: absolute;
+        display: inline-block;
+        top: 278px;
+
+}
+.test4{
+    position: absolute;
+        display: inline-block;
+        top: 278px;
+        left: 40%;
+
+}
+.test5{
+    position: absolute;
+        display: inline-block;
+        top: 514px;
+        
+
+}
+
